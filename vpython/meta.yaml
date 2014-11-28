@@ -1,12 +1,12 @@
 package:
     name: vpython
-    version: "6.0.5"
+    version: "6.10.0"
 
 source:
-    fn: master.zip
-    url: https://github.com/BruceSherwood/vpython-wx/archive/master.zip
-    patches:
-        - vpython.patch   # [osx]
+    fn: v6.10.zip
+    url: https://github.com/BruceSherwood/vpython-wx/archive/v6.10.zip
+#    patches:
+#        - vpython.patch   # [osx]
 build:
     number: 0
 
@@ -23,3 +23,4 @@ requirements:
         - boost-vpython
         - fonttools
         - ttfquery
+        - numpy
