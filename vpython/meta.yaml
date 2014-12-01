@@ -5,8 +5,8 @@ package:
 source:
     fn: v6.10.zip
     url: https://github.com/BruceSherwood/vpython-wx/archive/v6.10.zip
-#    patches:
-#        - vpython.patch   # [osx]
+    patches:
+        - vpython.patch   # [osx]
 build:
     number: 0
 
