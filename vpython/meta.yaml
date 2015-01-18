@@ -16,6 +16,8 @@ requirements:
         - wxpython
         - numpy
         - boost-vpython
+        - setuptools
+
     run:
         - python
         - polygon2
