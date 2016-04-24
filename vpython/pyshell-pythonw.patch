@@ -1,0 +1,13 @@
+diff --git site-packages/vidle2/PyShell.py site-packages/vidle2/PyShell.py
+index 54204a0..58312ee 100644
+--- site-packages/vidle2/PyShell.py
++++ site-packages/vidle2/PyShell.py
+@@ -358,7 +358,7 @@ class ModifiedInterpreter(InteractiveInterpreter):
+         if self.subprocess_arglist is None:
+             self.subprocess_arglist = self.build_subprocess_arglist()
+         args = self.subprocess_arglist
+-        self.rpcproc = subprocess.Popen([sys.executable] + args[1:])
++        self.rpcproc = subprocess.Popen([sys.executable + 'w'] + args[1:])
+
+     def build_subprocess_arglist(self):
+         assert (self.port!=0), (

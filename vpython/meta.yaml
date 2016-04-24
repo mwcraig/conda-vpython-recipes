@@ -6,9 +6,13 @@ source:
     fn: v6.11.zip
     url: https://github.com/BruceSherwood/vpython-wx/archive/v6.11.zip
     patches:
-        - vpython.patch   # [osx]
+        - setup.patch   # [osx]
+        - vidle.patch   # [osx]
+        # NOTE: This recipe applies some patches in build.sh because of
+        #       line ending issues.
+
 build:
-    number: 0
+    number: 1
 
 requirements:
     build:
