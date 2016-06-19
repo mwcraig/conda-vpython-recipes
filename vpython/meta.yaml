@@ -18,7 +18,7 @@ requirements:
     build:
         - python
         - wxpython
-        - numpy
+        - numpy x.x
         - boost-vpython
         - setuptools
 
@@ -29,4 +29,4 @@ requirements:
         - boost-vpython
         - fonttools
         - ttfquery
-        - numpy
+        - numpy x.x
