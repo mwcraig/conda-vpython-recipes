@@ -13,8 +13,10 @@ build:
 
 requirements:
     build:
+        - python
 
     run:
+        - python
 
 test:
     imports:
